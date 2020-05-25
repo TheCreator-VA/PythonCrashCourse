@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# The function takes a string as an argument and return a dictionary consisting individual letters
+# The function takes a string as an argument and returns a dictionary consisting individual letters
 # along with their frequency.
 # Special characters and numbers are ignored by the function. 
 def count_letters(text):
