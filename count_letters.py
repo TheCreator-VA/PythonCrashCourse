@@ -12,7 +12,7 @@ def count_letters(text):
         letter = letter.lower()             # all upper case and lower case letters are treated same
         if ord(letter) in range(97,123):    # check if the encountered character is in ascii range of small letters 
             if letter not in letter_count:  # check If letter is not already present in our letter_count dict
-                letter_count[letter] = 1          # add that letter and initialize its count with 1
+                letter_count[letter] = 1    # add that letter and initialize its count with 1
             else:                           # letter is already present in dictionary
                 letter_count[letter] += 1   # increase its count by 1
     return letter_count 
